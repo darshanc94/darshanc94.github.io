@@ -1,0 +1,143 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+	padding:0;
+}
+.logo-container img{
+	width:400px;
+}
+
+.contact-container{
+	margin-top: 35px;
+}
+.tel-email-wrapper {
+    display: flex;
+    justify-content: space-between;
+    color:#383e41;
+   font-size: 21px;
+    font-weight: 500;
+}
+.tel-email-wrapper span{
+  color:red;
+}
+
+.address {
+	text-align: right;
+	color: #383e41;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.address {
+    text-align: right;
+    color: #383e41;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.header-container img {
+    width: 100%;
+}
+.content-section{
+	    margin-top: -180px;
+}
+.slogan-container {
+    font-family: Georgia, times new roman;
+    color: white;
+    font-size: 32px;
+        line-height: 1.2;
+            font-weight: 800;
+}
+.slogan-container span{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    display: block;
+    font-weight: normal;
+        margin-top: 10px;
+}
+.body-bg{
+	background:#e1e1e1;
+	padding-bottom: 20px;
+}
+.content-container {
+    margin: 0 -20px;
+    padding: 20px;
+    background: white;
+    margin-top: 20px
+}
+.content-container span {
+    display: block;
+    font-size: 22px;
+}
+.content-container .content{
+
+	border-right:dotted 1px #2a3784;
+    padding-right: 40px;
+}
+
+.content-container .content p{
+ color: #383e41;
+     font-size: 14px;
+}
+.vertical-container{
+	display: inline-block;
+}
+.vertical-image img{
+	width:100px;
+}
+.other-images{
+	display: inline-block;
+	vertical-align: top;
+}
+.other-images{
+    display: inline-flex;
+    vertical-align: top;
+}
+.other-images img {
+    width: 165px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .other-images img {
+      width: 115px;
+      margin-left: 0;
+  }
+  .vertical-image img {
+    width: 100px;
+}
+}
+@media only screen and (max-width: 990px) {
+.content-container .content {
+    padding: 20px;
+}
+.content-image {
+    padding: 0 20px;
+}
+}
+@media only screen and (max-width: 768px) {
+.slogan-container {
+    font-size: 22px;
+
+}
+.tel-email-wrapper {
+    display: inline-block;
+    }
+    .address {
+    text-align: left;
+    color: #383e41;
+    /* margin-top: 10px; */
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.content-container .content {
+    padding: 20px;
+}
+}
+@media only screen and (max-width: 500px) {
+.slogan-container {
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+}
