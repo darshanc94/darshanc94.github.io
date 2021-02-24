@@ -21,7 +21,11 @@ body{
 .tel-email-wrapper span{
   color:red;
 }
-
+.tel-email-wrapper a{
+  
+    color:#383e41;
+	text-decoration:none;
+}
 .address {
 	text-align: right;
 	color: #383e41;
